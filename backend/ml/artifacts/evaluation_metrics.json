@@ -1,0 +1,586 @@
+{
+  "CAD": {
+    "targetId": "CAD",
+    "modelArchitecture": "RandomForest",
+    "cvRocAucMean": 0.9181,
+    "metrics": {
+      "accuracy": 0.8033,
+      "precision": 0.8039,
+      "recall": 0.9535,
+      "specificity": 0.4444,
+      "f1Score": 0.8723,
+      "rocAuc": 0.8695
+    },
+    "confusionMatrix": {
+      "truePositive": 41,
+      "falsePositive": 10,
+      "falseNegative": 2,
+      "trueNegative": 8,
+      "totalSamples": 61
+    },
+    "sampleCounts": {
+      "totalDataset": 303,
+      "trainSet": 242,
+      "testSet": 61,
+      "positiveTrain": 173,
+      "negativeTrain": 69,
+      "positiveTest": 43,
+      "negativeTest": 18
+    },
+    "rocCurveData": [
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.0,
+        "threshold": 1.0
+      },
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.023,
+        "threshold": 0.962
+      },
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.488,
+        "threshold": 0.856
+      },
+      {
+        "falsePositiveRate": 0.056,
+        "truePositiveRate": 0.488,
+        "threshold": 0.856
+      },
+      {
+        "falsePositiveRate": 0.056,
+        "truePositiveRate": 0.512,
+        "threshold": 0.853
+      },
+      {
+        "falsePositiveRate": 0.111,
+        "truePositiveRate": 0.512,
+        "threshold": 0.842
+      },
+      {
+        "falsePositiveRate": 0.111,
+        "truePositiveRate": 0.558,
+        "threshold": 0.835
+      },
+      {
+        "falsePositiveRate": 0.167,
+        "truePositiveRate": 0.558,
+        "threshold": 0.833
+      },
+      {
+        "falsePositiveRate": 0.167,
+        "truePositiveRate": 0.674,
+        "threshold": 0.764
+      },
+      {
+        "falsePositiveRate": 0.222,
+        "truePositiveRate": 0.674,
+        "threshold": 0.757
+      },
+      {
+        "falsePositiveRate": 0.222,
+        "truePositiveRate": 0.907,
+        "threshold": 0.652
+      },
+      {
+        "falsePositiveRate": 0.333,
+        "truePositiveRate": 0.907,
+        "threshold": 0.607
+      },
+      {
+        "falsePositiveRate": 0.333,
+        "truePositiveRate": 0.93,
+        "threshold": 0.595
+      },
+      {
+        "falsePositiveRate": 0.389,
+        "truePositiveRate": 0.93,
+        "threshold": 0.59
+      },
+      {
+        "falsePositiveRate": 0.389,
+        "truePositiveRate": 0.953,
+        "threshold": 0.554
+      },
+      {
+        "falsePositiveRate": 0.611,
+        "truePositiveRate": 0.953,
+        "threshold": 0.493
+      },
+      {
+        "falsePositiveRate": 0.611,
+        "truePositiveRate": 0.977,
+        "threshold": 0.491
+      },
+      {
+        "falsePositiveRate": 0.944,
+        "truePositiveRate": 0.977,
+        "threshold": 0.392
+      },
+      {
+        "falsePositiveRate": 0.944,
+        "truePositiveRate": 1.0,
+        "threshold": 0.376
+      },
+      {
+        "falsePositiveRate": 1.0,
+        "truePositiveRate": 1.0,
+        "threshold": 0.231
+      }
+    ]
+  },
+  "LAD": {
+    "targetId": "LAD",
+    "modelArchitecture": "RandomForest",
+    "cvRocAucMean": 0.8368,
+    "metrics": {
+      "accuracy": 0.8197,
+      "precision": 0.8049,
+      "recall": 0.9167,
+      "specificity": 0.68,
+      "f1Score": 0.8571,
+      "rocAuc": 0.8511
+    },
+    "confusionMatrix": {
+      "truePositive": 33,
+      "falsePositive": 8,
+      "falseNegative": 3,
+      "trueNegative": 17,
+      "totalSamples": 61
+    },
+    "sampleCounts": {
+      "totalDataset": 303,
+      "trainSet": 242,
+      "testSet": 61,
+      "positiveTrain": 141,
+      "negativeTrain": 101,
+      "positiveTest": 36,
+      "negativeTest": 25
+    },
+    "rocCurveData": [
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.0,
+        "threshold": 1.0
+      },
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.028,
+        "threshold": 0.886
+      },
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.278,
+        "threshold": 0.8
+      },
+      {
+        "falsePositiveRate": 0.08,
+        "truePositiveRate": 0.278,
+        "threshold": 0.78
+      },
+      {
+        "falsePositiveRate": 0.08,
+        "truePositiveRate": 0.472,
+        "threshold": 0.73
+      },
+      {
+        "falsePositiveRate": 0.12,
+        "truePositiveRate": 0.472,
+        "threshold": 0.727
+      },
+      {
+        "falsePositiveRate": 0.12,
+        "truePositiveRate": 0.528,
+        "threshold": 0.687
+      },
+      {
+        "falsePositiveRate": 0.16,
+        "truePositiveRate": 0.528,
+        "threshold": 0.684
+      },
+      {
+        "falsePositiveRate": 0.16,
+        "truePositiveRate": 0.639,
+        "threshold": 0.654
+      },
+      {
+        "falsePositiveRate": 0.2,
+        "truePositiveRate": 0.639,
+        "threshold": 0.652
+      },
+      {
+        "falsePositiveRate": 0.2,
+        "truePositiveRate": 0.667,
+        "threshold": 0.638
+      },
+      {
+        "falsePositiveRate": 0.24,
+        "truePositiveRate": 0.667,
+        "threshold": 0.633
+      },
+      {
+        "falsePositiveRate": 0.24,
+        "truePositiveRate": 0.694,
+        "threshold": 0.632
+      },
+      {
+        "falsePositiveRate": 0.28,
+        "truePositiveRate": 0.694,
+        "threshold": 0.625
+      },
+      {
+        "falsePositiveRate": 0.28,
+        "truePositiveRate": 0.722,
+        "threshold": 0.624
+      },
+      {
+        "falsePositiveRate": 0.32,
+        "truePositiveRate": 0.722,
+        "threshold": 0.606
+      },
+      {
+        "falsePositiveRate": 0.32,
+        "truePositiveRate": 1.0,
+        "threshold": 0.447
+      },
+      {
+        "falsePositiveRate": 1.0,
+        "truePositiveRate": 1.0,
+        "threshold": 0.204
+      }
+    ]
+  },
+  "LCX": {
+    "targetId": "LCX",
+    "modelArchitecture": "RandomForest",
+    "cvRocAucMean": 0.7063,
+    "metrics": {
+      "accuracy": 0.6557,
+      "precision": 0.6364,
+      "recall": 0.2917,
+      "specificity": 0.8919,
+      "f1Score": 0.4,
+      "rocAuc": 0.6881
+    },
+    "confusionMatrix": {
+      "truePositive": 7,
+      "falsePositive": 4,
+      "falseNegative": 17,
+      "trueNegative": 33,
+      "totalSamples": 61
+    },
+    "sampleCounts": {
+      "totalDataset": 303,
+      "trainSet": 242,
+      "testSet": 61,
+      "positiveTrain": 95,
+      "negativeTrain": 147,
+      "positiveTest": 24,
+      "negativeTest": 37
+    },
+    "rocCurveData": [
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.0,
+        "threshold": 1.0
+      },
+      {
+        "falsePositiveRate": 0.027,
+        "truePositiveRate": 0.0,
+        "threshold": 0.671
+      },
+      {
+        "falsePositiveRate": 0.027,
+        "truePositiveRate": 0.167,
+        "threshold": 0.559
+      },
+      {
+        "falsePositiveRate": 0.054,
+        "truePositiveRate": 0.167,
+        "threshold": 0.549
+      },
+      {
+        "falsePositiveRate": 0.054,
+        "truePositiveRate": 0.208,
+        "threshold": 0.542
+      },
+      {
+        "falsePositiveRate": 0.108,
+        "truePositiveRate": 0.208,
+        "threshold": 0.522
+      },
+      {
+        "falsePositiveRate": 0.108,
+        "truePositiveRate": 0.333,
+        "threshold": 0.485
+      },
+      {
+        "falsePositiveRate": 0.162,
+        "truePositiveRate": 0.333,
+        "threshold": 0.474
+      },
+      {
+        "falsePositiveRate": 0.162,
+        "truePositiveRate": 0.375,
+        "threshold": 0.473
+      },
+      {
+        "falsePositiveRate": 0.216,
+        "truePositiveRate": 0.375,
+        "threshold": 0.452
+      },
+      {
+        "falsePositiveRate": 0.216,
+        "truePositiveRate": 0.417,
+        "threshold": 0.439
+      },
+      {
+        "falsePositiveRate": 0.351,
+        "truePositiveRate": 0.417,
+        "threshold": 0.414
+      },
+      {
+        "falsePositiveRate": 0.351,
+        "truePositiveRate": 0.542,
+        "threshold": 0.404
+      },
+      {
+        "falsePositiveRate": 0.378,
+        "truePositiveRate": 0.542,
+        "threshold": 0.403
+      },
+      {
+        "falsePositiveRate": 0.378,
+        "truePositiveRate": 0.625,
+        "threshold": 0.392
+      },
+      {
+        "falsePositiveRate": 0.405,
+        "truePositiveRate": 0.625,
+        "threshold": 0.389
+      },
+      {
+        "falsePositiveRate": 0.405,
+        "truePositiveRate": 0.75,
+        "threshold": 0.381
+      },
+      {
+        "falsePositiveRate": 0.486,
+        "truePositiveRate": 0.75,
+        "threshold": 0.359
+      },
+      {
+        "falsePositiveRate": 0.486,
+        "truePositiveRate": 0.792,
+        "threshold": 0.358
+      },
+      {
+        "falsePositiveRate": 0.541,
+        "truePositiveRate": 0.792,
+        "threshold": 0.344
+      },
+      {
+        "falsePositiveRate": 0.541,
+        "truePositiveRate": 0.875,
+        "threshold": 0.336
+      },
+      {
+        "falsePositiveRate": 0.649,
+        "truePositiveRate": 0.875,
+        "threshold": 0.319
+      },
+      {
+        "falsePositiveRate": 0.649,
+        "truePositiveRate": 0.917,
+        "threshold": 0.315
+      },
+      {
+        "falsePositiveRate": 0.676,
+        "truePositiveRate": 0.917,
+        "threshold": 0.315
+      },
+      {
+        "falsePositiveRate": 0.676,
+        "truePositiveRate": 0.958,
+        "threshold": 0.306
+      },
+      {
+        "falsePositiveRate": 0.703,
+        "truePositiveRate": 0.958,
+        "threshold": 0.28
+      },
+      {
+        "falsePositiveRate": 0.703,
+        "truePositiveRate": 1.0,
+        "threshold": 0.259
+      },
+      {
+        "falsePositiveRate": 1.0,
+        "truePositiveRate": 1.0,
+        "threshold": 0.106
+      }
+    ]
+  },
+  "RCA": {
+    "targetId": "RCA",
+    "modelArchitecture": "LogisticRegression",
+    "cvRocAucMean": 0.7179,
+    "metrics": {
+      "accuracy": 0.6885,
+      "precision": 0.6111,
+      "recall": 0.4783,
+      "specificity": 0.8158,
+      "f1Score": 0.5366,
+      "rocAuc": 0.7449
+    },
+    "confusionMatrix": {
+      "truePositive": 11,
+      "falsePositive": 7,
+      "falseNegative": 12,
+      "trueNegative": 31,
+      "totalSamples": 61
+    },
+    "sampleCounts": {
+      "totalDataset": 303,
+      "trainSet": 242,
+      "testSet": 61,
+      "positiveTrain": 91,
+      "negativeTrain": 151,
+      "positiveTest": 23,
+      "negativeTest": 38
+    },
+    "rocCurveData": [
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.0,
+        "threshold": 1.0
+      },
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.043,
+        "threshold": 0.948
+      },
+      {
+        "falsePositiveRate": 0.0,
+        "truePositiveRate": 0.13,
+        "threshold": 0.924
+      },
+      {
+        "falsePositiveRate": 0.105,
+        "truePositiveRate": 0.13,
+        "threshold": 0.857
+      },
+      {
+        "falsePositiveRate": 0.105,
+        "truePositiveRate": 0.261,
+        "threshold": 0.777
+      },
+      {
+        "falsePositiveRate": 0.132,
+        "truePositiveRate": 0.261,
+        "threshold": 0.757
+      },
+      {
+        "falsePositiveRate": 0.132,
+        "truePositiveRate": 0.304,
+        "threshold": 0.706
+      },
+      {
+        "falsePositiveRate": 0.158,
+        "truePositiveRate": 0.304,
+        "threshold": 0.698
+      },
+      {
+        "falsePositiveRate": 0.158,
+        "truePositiveRate": 0.435,
+        "threshold": 0.58
+      },
+      {
+        "falsePositiveRate": 0.184,
+        "truePositiveRate": 0.435,
+        "threshold": 0.564
+      },
+      {
+        "falsePositiveRate": 0.184,
+        "truePositiveRate": 0.565,
+        "threshold": 0.42
+      },
+      {
+        "falsePositiveRate": 0.211,
+        "truePositiveRate": 0.565,
+        "threshold": 0.414
+      },
+      {
+        "falsePositiveRate": 0.211,
+        "truePositiveRate": 0.609,
+        "threshold": 0.368
+      },
+      {
+        "falsePositiveRate": 0.316,
+        "truePositiveRate": 0.609,
+        "threshold": 0.314
+      },
+      {
+        "falsePositiveRate": 0.316,
+        "truePositiveRate": 0.696,
+        "threshold": 0.275
+      },
+      {
+        "falsePositiveRate": 0.342,
+        "truePositiveRate": 0.696,
+        "threshold": 0.259
+      },
+      {
+        "falsePositiveRate": 0.342,
+        "truePositiveRate": 0.739,
+        "threshold": 0.248
+      },
+      {
+        "falsePositiveRate": 0.368,
+        "truePositiveRate": 0.739,
+        "threshold": 0.243
+      },
+      {
+        "falsePositiveRate": 0.368,
+        "truePositiveRate": 0.87,
+        "threshold": 0.183
+      },
+      {
+        "falsePositiveRate": 0.395,
+        "truePositiveRate": 0.87,
+        "threshold": 0.181
+      },
+      {
+        "falsePositiveRate": 0.395,
+        "truePositiveRate": 0.913,
+        "threshold": 0.17
+      },
+      {
+        "falsePositiveRate": 0.737,
+        "truePositiveRate": 0.913,
+        "threshold": 0.062
+      },
+      {
+        "falsePositiveRate": 0.737,
+        "truePositiveRate": 0.957,
+        "threshold": 0.053
+      },
+      {
+        "falsePositiveRate": 0.974,
+        "truePositiveRate": 0.957,
+        "threshold": 0.012
+      },
+      {
+        "falsePositiveRate": 0.974,
+        "truePositiveRate": 1.0,
+        "threshold": 0.006
+      },
+      {
+        "falsePositiveRate": 1.0,
+        "truePositiveRate": 1.0,
+        "threshold": 0.005
+      }
+    ]
+  }
+}

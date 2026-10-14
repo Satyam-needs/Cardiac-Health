@@ -1,0 +1,233 @@
+{
+  "CAD": [
+    {
+      "feature": "Atypical",
+      "importance": 0.1303,
+      "rank": 1
+    },
+    {
+      "feature": "Typical Chest Pain",
+      "importance": 0.1096,
+      "rank": 2
+    },
+    {
+      "feature": "Age",
+      "importance": 0.0669,
+      "rank": 3
+    },
+    {
+      "feature": "EF-TTE",
+      "importance": 0.0458,
+      "rank": 4
+    },
+    {
+      "feature": "FBS",
+      "importance": 0.0447,
+      "rank": 5
+    },
+    {
+      "feature": "Region RWMA",
+      "importance": 0.0372,
+      "rank": 6
+    },
+    {
+      "feature": "TG",
+      "importance": 0.0347,
+      "rank": 7
+    },
+    {
+      "feature": "ESR",
+      "importance": 0.0344,
+      "rank": 8
+    },
+    {
+      "feature": "BP",
+      "importance": 0.0269,
+      "rank": 9
+    },
+    {
+      "feature": "PLT",
+      "importance": 0.0249,
+      "rank": 10
+    },
+    {
+      "feature": "K",
+      "importance": 0.0248,
+      "rank": 11
+    },
+    {
+      "feature": "Nonanginal",
+      "importance": 0.0243,
+      "rank": 12
+    },
+    {
+      "feature": "BMI",
+      "importance": 0.0236,
+      "rank": 13
+    },
+    {
+      "feature": "HTN",
+      "importance": 0.0235,
+      "rank": 14
+    },
+    {
+      "feature": "Weight",
+      "importance": 0.023,
+      "rank": 15
+    }
+  ],
+  "LAD": [
+    {
+      "feature": "Atypical",
+      "importance": 0.0817,
+      "rank": 1
+    },
+    {
+      "feature": "Typical Chest Pain",
+      "importance": 0.077,
+      "rank": 2
+    },
+    {
+      "feature": "EF-TTE",
+      "importance": 0.0596,
+      "rank": 3
+    },
+    {
+      "feature": "Age",
+      "importance": 0.0555,
+      "rank": 4
+    },
+    {
+      "feature": "Region RWMA",
+      "importance": 0.0484,
+      "rank": 5
+    },
+    {
+      "feature": "TG",
+      "importance": 0.0417,
+      "rank": 6
+    },
+    {
+      "feature": "ESR",
+      "importance": 0.0414,
+      "rank": 7
+    },
+    {
+      "feature": "Lymph",
+      "importance": 0.039,
+      "rank": 8
+    },
+    {
+      "feature": "WBC",
+      "importance": 0.0329,
+      "rank": 9
+    },
+    {
+      "feature": "BMI",
+      "importance": 0.0314,
+      "rank": 10
+    },
+    {
+      "feature": "FBS",
+      "importance": 0.0303,
+      "rank": 11
+    },
+    {
+      "feature": "PLT",
+      "importance": 0.0296,
+      "rank": 12
+    },
+    {
+      "feature": "Na",
+      "importance": 0.0293,
+      "rank": 13
+    },
+    {
+      "feature": "Neut",
+      "importance": 0.0287,
+      "rank": 14
+    },
+    {
+      "feature": "BUN",
+      "importance": 0.0263,
+      "rank": 15
+    }
+  ],
+  "LCX": [
+    {
+      "feature": "Age",
+      "importance": 0.0833,
+      "rank": 1
+    },
+    {
+      "feature": "CR",
+      "importance": 0.0548,
+      "rank": 2
+    },
+    {
+      "feature": "BUN",
+      "importance": 0.0442,
+      "rank": 3
+    },
+    {
+      "feature": "BMI",
+      "importance": 0.0441,
+      "rank": 4
+    },
+    {
+      "feature": "PLT",
+      "importance": 0.0427,
+      "rank": 5
+    },
+    {
+      "feature": "TG",
+      "importance": 0.0416,
+      "rank": 6
+    },
+    {
+      "feature": "HB",
+      "importance": 0.0392,
+      "rank": 7
+    },
+    {
+      "feature": "Weight",
+      "importance": 0.0384,
+      "rank": 8
+    },
+    {
+      "feature": "K",
+      "importance": 0.0374,
+      "rank": 9
+    },
+    {
+      "feature": "Length",
+      "importance": 0.0367,
+      "rank": 10
+    },
+    {
+      "feature": "Lymph",
+      "importance": 0.0333,
+      "rank": 11
+    },
+    {
+      "feature": "FBS",
+      "importance": 0.0332,
+      "rank": 12
+    },
+    {
+      "feature": "WBC",
+      "importance": 0.0318,
+      "rank": 13
+    },
+    {
+      "feature": "Na",
+      "importance": 0.0313,
+      "rank": 14
+    },
+    {
+      "feature": "Typical Chest Pain",
+      "importance": 0.0313,
+      "rank": 15
+    }
+  ]
+}
